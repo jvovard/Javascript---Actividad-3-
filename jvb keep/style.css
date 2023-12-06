@@ -1,0 +1,65 @@
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#contenedorAgregarTarea {
+  margin-bottom: 10px;
+}
+
+#entradaTarea {
+  width: 70%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#botonAgregar {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Estilos específicos para la lista de tareas */
+#listaTareas {
+  list-style-type: none;
+  padding: 0;
+}
+
+#listaTareas li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#listaTareas li button {
+  margin-left: 10px;
+}
+
+body {
+  background-color: #87CEEB;
+}
+
+body {
+  font-family: "Arial", sans-serif; 
+  font-style: italic; 
+
+ }
